@@ -1,0 +1,17 @@
+import math
+
+x = float(input("Escolha seu primeiro numero "))
+y = float(input("Escolha seu sugundo numero "))
+
+print(f"SOMA")
+print(f"Para a soma de dois numeros manualmente, fazemos os seguintes passos, colocamos eles um debaixo de outro em formato coluna, seprando em casas de unidades, dezena e centena ")
+print(f"A soma de {x} + {y} = {x + y}")
+print(f"SBTRAÇÃO")
+print(f"Para a subtração de dois numeros manualmente, fazemos os seguintes passos, colocamos o maior numero em cima do menor em formato coluna, seprando em casas de unidades, dezena e centena")
+print(f"A sbtração de {x} - {y} = {x - y}")
+print(f"MULTIPLICAÇÃO")
+print(f"Para a multiplicação de dois numeros manualmente, fazemos os seguintes passos, colocamos um de baixo de outro em formato coluna e multiplicamos os numeros de baixo para os de cima começando pela unidade, depois a dezena, logo apos a centena")
+print(f"A multiplicação de {x} * {y} = {x * y}")
+print(f"DIVISÃO")
+print(f"Para a divisão de dois numeros manualmente, fazemos os seguintes passos, colocamos o numero um do lado do outro separados por uma chave, o numero da chave vai dividir o numero que nao esta na chave, colocando o outro numero em baixo do numero que esta na chave, onde o numero que esta em baixo da chave multiplica o que esta na chavre para alcançar o numero que esta fora da chave sendo igual ou menor para subtrar, se for o numero subtraido pode ser novamente divisivel, fazer novamente o passo ")
+print(f"A divisão de {x} / {y} = {x / y}")

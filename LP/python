@@ -2,6 +2,7 @@ import math
 
 x = float(input("Escolha seu primeiro numero "))
 y = float(input("Escolha seu segundo numero "))
+z = ((x**2 + y**2)**0.5)
 
 print(f"SOMA")
 print(f"Para a soma de dois números manualmente, fazemos os seguintes passos, colocamos eles um debaixo de outro em formato coluna, separando em casas de unidades, dezena e centena ")
@@ -33,3 +34,6 @@ print(f"{math.sqrt(x)}")
 print(f"LOGARITIMO")
 print(f"Logaritmo é uma maneira de descobrir qual é o expoente em uma potência. Quando você vê algo como log na base 2 de 8, a pergunta é: 2 elevado a quanto dá 8? Como 2 elevado a 3 é igual a 8, então o logaritmo é 3. Ou seja: Logaritmo é o número que responde: “a base precisa ser elevada a quanto para dar esse resultado?” Resumindo em uma frase: Logaritmo é o expoente que transforma a base no número dado.")
 print(f"{math.log10(x)}")
+
+print(f"PITÁGORAS")
+print(f"resultado do teorema é {z} = {(x**2 + y**2)**0.5}")
